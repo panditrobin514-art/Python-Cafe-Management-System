@@ -166,11 +166,12 @@ if payment=="cash":
 elif payment=="online":
     print("Please Scan QR-Code")
     import cv2 as cv
-    img=cv.imread("D:\\qr.JPEG")
+    img=cv.imread("D:\Python_cafe_management_system\Python-Cafe-Management-System")
     cv.imshow("qr",img)
     cv.waitKey(0)
     cv.destroyAllWindows()
 else:
     print("Invalid Payment Mode")
-
+ 
+  
                 
